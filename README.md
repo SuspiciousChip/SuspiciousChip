@@ -36,7 +36,7 @@ One I rated myself (edit `config.json`). The other counts real language bytes ac
 
 <img src="assets/isocal.svg" alt="3D contribution calendar" />
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake.svg" alt="contribution snake" />
+<img src="https://raw.githubusercontent.com/SuspiciousChip/SuspiciousChip/output/github-snake.svg" alt="contribution snake" />
 
 ## `~/` the numbers
 
