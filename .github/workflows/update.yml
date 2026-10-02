@@ -18,6 +18,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Avatar (halftone)
+        continue-on-error: true
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pip install pillow
+          python scripts/avatar.py
       - name: Generate SVGs
         env:
           GH_USER: ${{ github.repository_owner }}
