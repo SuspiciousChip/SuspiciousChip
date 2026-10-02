@@ -2,7 +2,7 @@
 <rect x=".5" y=".5" width="774" height="613" rx="10" fill="#0b0709" stroke="#3a1a22"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 <text x="24" y="34" font-size="16" font-weight="700" fill="#e9dfe1">SuspiciousChip — contributions, last year</text>
-<text x="24" y="62" font-size="26" font-weight="700" fill="#d63d58">49</text>
+<text x="24" y="62" font-size="26" font-weight="700" fill="#d63d58">50</text>
 <text x="94" y="62" font-size="11" fill="#9a8589">commits, PRs, issues &amp; reviews</text>
 <text x="751" y="34" text-anchor="end" font-size="11" fill="#9a8589">current streak 1d · longest 4d · busiest day 15</text>
 <polygon points="108.9,124.0 751.4,495.0 666.6,544.0 24.0,173.0" fill="#2a1318" fill-opacity="0.55"/>
@@ -48,9 +48,9 @@
 <polygon points="644.3,484.0 654.4,489.9 654.4,535.9 644.3,530.0" fill="#83434d" fill-opacity="1"/>
 <polygon points="664.6,484.0 654.4,489.9 654.4,535.9 664.6,530.0" fill="#b35b69" fill-opacity="1"/>
 <polygon points="654.4,478.1 664.6,484.0 654.4,489.9 644.3,484.0" fill="#ef7a8c" fill-opacity="1"/>
-<polygon points="668.5,503.6 678.7,509.5 678.7,535.9 668.5,530.0" fill="#6a1b29" fill-opacity="1"/>
-<polygon points="688.9,503.6 678.7,509.5 678.7,535.9 688.9,530.0" fill="#912538" fill-opacity="1"/>
-<polygon points="678.7,497.7 688.9,503.6 678.7,509.5 668.5,503.6" fill="#c2324b" fill-opacity="1"/>
+<polygon points="668.5,500.8 678.7,506.7 678.7,535.9 668.5,530.0" fill="#6a1b29" fill-opacity="1"/>
+<polygon points="688.9,500.8 678.7,506.7 678.7,535.9 688.9,530.0" fill="#912538" fill-opacity="1"/>
+<polygon points="678.7,494.9 688.9,500.8 678.7,506.7 668.5,500.8" fill="#c2324b" fill-opacity="1"/>
 <text x="24.0" y="191.0" font-size="11" fill="#9a8589">Sep</text>
 <text x="36.1" y="198.0" font-size="11" fill="#9a8589">Oct</text>
 <text x="84.6" y="226.0" font-size="11" fill="#9a8589">Nov</text>
