@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Aryan Dixit" />
+  <img src="assets/header.svg" alt="SUS_Aryan" />
 </p>
 
 <p align="center">
