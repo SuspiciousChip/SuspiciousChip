@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/avatar.svg" width="170" alt="avatar" />
+</p>
+
+<p align="center">
   <img src="assets/header.svg" alt="Aryan Dixit" />
 </p>
 
