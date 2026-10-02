@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="775" height="614" viewBox="0 0 775 614" role="img" aria-label="contribution calendar">
+<rect x=".5" y=".5" width="774" height="613" rx="10" fill="#0b0709" stroke="#3a1a22"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<text x="24" y="34" font-size="16" font-weight="700" fill="#e9dfe1">SuspiciousChip — contributions, last year</text>
+<text x="24" y="62" font-size="26" font-weight="700" fill="#d63d58">47</text>
+<text x="94" y="62" font-size="11" fill="#9a8589">commits, PRs, issues &amp; reviews</text>
+<text x="751" y="34" text-anchor="end" font-size="11" fill="#9a8589">current streak 1d · longest 4d · busiest day 15</text>
+<polygon points="108.9,124.0 751.4,495.0 666.6,544.0 24.0,173.0" fill="#2a1318" fill-opacity="0.55"/>
+<polygon points="607.9,418.2 618.1,424.1 618.1,430.9 607.9,425.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="628.3,418.2 618.1,424.1 618.1,430.9 628.3,425.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="618.1,412.3 628.3,418.2 618.1,424.1 607.9,418.2" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="523.0,425.2 533.2,431.1 533.2,437.9 523.0,432.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="543.4,425.2 533.2,431.1 533.2,437.9 543.4,432.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="533.2,419.3 543.4,425.2 533.2,431.1 523.0,425.2" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="547.3,439.2 557.5,445.1 557.5,451.9 547.3,446.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="567.6,439.2 557.5,445.1 557.5,451.9 567.6,446.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="557.5,433.3 567.6,439.2 557.5,445.1 547.3,439.2" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="535.1,446.2 545.3,452.1 545.3,458.9 535.1,453.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="555.5,446.2 545.3,452.1 545.3,458.9 555.5,453.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="545.3,440.3 555.5,446.2 545.3,452.1 535.1,446.2" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="607.9,471.4 618.1,477.3 618.1,486.9 607.9,481.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="628.3,471.4 618.1,477.3 618.1,486.9 628.3,481.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="618.1,465.5 628.3,471.4 618.1,477.3 607.9,471.4" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="632.1,471.4 642.3,477.3 642.3,486.9 632.1,481.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="652.5,471.4 642.3,477.3 642.3,486.9 652.5,481.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="642.3,465.5 652.5,471.4 642.3,477.3 632.1,471.4" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="704.9,482.6 715.1,488.5 715.1,500.9 704.9,495.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="725.3,482.6 715.1,488.5 715.1,500.9 725.3,495.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="715.1,476.7 725.3,482.6 715.1,488.5 704.9,482.6" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="668.5,489.6 678.7,495.5 678.7,507.9 668.5,502.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="688.9,489.6 678.7,495.5 678.7,507.9 688.9,502.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="678.7,483.7 688.9,489.6 678.7,495.5 668.5,489.6" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="692.8,495.2 702.9,501.1 702.9,507.9 692.8,502.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="713.1,495.2 702.9,501.1 702.9,507.9 713.1,502.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="702.9,489.3 713.1,495.2 702.9,501.1 692.8,495.2" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="680.6,491.0 690.8,496.9 690.8,514.9 680.6,509.0" fill="#4d131e" fill-opacity="1"/>
+<polygon points="701.0,491.0 690.8,496.9 690.8,514.9 701.0,509.0" fill="#691b2a" fill-opacity="1"/>
+<polygon points="690.8,485.1 701.0,491.0 690.8,496.9 680.6,491.0" fill="#8c2438" fill-opacity="1"/>
+<polygon points="704.9,496.6 715.1,502.5 715.1,514.9 704.9,509.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="725.3,496.6 715.1,502.5 715.1,514.9 725.3,509.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="715.1,490.7 725.3,496.6 715.1,502.5 704.9,496.6" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="668.5,506.4 678.7,512.3 678.7,521.9 668.5,516.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="688.9,506.4 678.7,512.3 678.7,521.9 688.9,516.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="678.7,500.5 688.9,506.4 678.7,512.3 668.5,506.4" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="692.8,509.2 702.9,515.1 702.9,521.9 692.8,516.0" fill="#310e16" fill-opacity="1"/>
+<polygon points="713.1,509.2 702.9,515.1 702.9,521.9 713.1,516.0" fill="#43131e" fill-opacity="1"/>
+<polygon points="702.9,503.3 713.1,509.2 702.9,515.1 692.8,509.2" fill="#5a1a28" fill-opacity="1"/>
+<polygon points="644.3,484.0 654.4,489.9 654.4,535.9 644.3,530.0" fill="#83434d" fill-opacity="1"/>
+<polygon points="664.6,484.0 654.4,489.9 654.4,535.9 664.6,530.0" fill="#b35b69" fill-opacity="1"/>
+<polygon points="654.4,478.1 664.6,484.0 654.4,489.9 644.3,484.0" fill="#ef7a8c" fill-opacity="1"/>
+<polygon points="668.5,509.2 678.7,515.1 678.7,535.9 668.5,530.0" fill="#4d131e" fill-opacity="1"/>
+<polygon points="688.9,509.2 678.7,515.1 678.7,535.9 688.9,530.0" fill="#691b2a" fill-opacity="1"/>
+<polygon points="678.7,503.3 688.9,509.2 678.7,515.1 668.5,509.2" fill="#8c2438" fill-opacity="1"/>
+<text x="24.0" y="191.0" font-size="11" fill="#9a8589">Sep</text>
+<text x="36.1" y="198.0" font-size="11" fill="#9a8589">Oct</text>
+<text x="84.6" y="226.0" font-size="11" fill="#9a8589">Nov</text>
+<text x="145.2" y="261.0" font-size="11" fill="#9a8589">Dec</text>
+<text x="193.7" y="289.0" font-size="11" fill="#9a8589">Jan</text>
+<text x="242.2" y="317.0" font-size="11" fill="#9a8589">Feb</text>
+<text x="290.7" y="345.0" font-size="11" fill="#9a8589">Mar</text>
+<text x="351.3" y="380.0" font-size="11" fill="#9a8589">Apr</text>
+<text x="399.8" y="408.0" font-size="11" fill="#9a8589">May</text>
+<text x="460.5" y="443.0" font-size="11" fill="#9a8589">Jun</text>
+<text x="509.0" y="471.0" font-size="11" fill="#9a8589">Jul</text>
+<text x="557.5" y="499.0" font-size="11" fill="#9a8589">Aug</text>
+<text x="618.1" y="534.0" font-size="11" fill="#9a8589">Sep</text>
+<text x="561" y="599" font-size="11" fill="#9a8589" text-anchor="end">less</text>
+<rect x="569" y="590" width="12" height="12" rx="2" fill="#2a1318"/>
+<rect x="589" y="590" width="12" height="12" rx="2" fill="#5a1a28"/>
+<rect x="609" y="590" width="12" height="12" rx="2" fill="#8c2438"/>
+<rect x="629" y="590" width="12" height="12" rx="2" fill="#c2324b"/>
+<rect x="649" y="590" width="12" height="12" rx="2" fill="#ef7a8c"/>
+<text x="679" y="599" font-size="11" fill="#9a8589">more</text>
+</g></svg>
