@@ -1,16 +1,45 @@
-## Hi there 👋
+<p align="center">
+  <img src="assets/header.svg" alt="Your Name" />
+</p>
 
-<!--
-**SuspiciousChip/SuspiciousChip** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LINKEDIN-722f37?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://codeforces.com/profile/YOUR_HANDLE"><img src="https://img.shields.io/badge/CODEFORCES-722f37?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=profile+views&color=722f37&style=flat-square" alt="profile views" />
+</p>
 
-Here are some ideas to get you started:
+## `~/` whoami
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Hi, I'm **Your Name**. One or two lines about what you study / build / care about.
+
+- What you're working on right now
+- Something you're learning
+- Fun fact: ...
+
+## `~/` toolbox
+
+<img src="https://skillicons.dev/icons?i=cpp,py,git,github,vscode&theme=dark" alt="toolbox" />
+
+## `~/` skill radar
+
+One I rated myself (edit `config.json`). The other counts real language bytes across my public repos and redraws itself on a schedule.
+
+<table>
+  <tr>
+    <td><img src="assets/skill-radar.svg" alt="Skill radar" /></td>
+    <td><img src="assets/language-radar.svg" alt="Language radar" /></td>
+  </tr>
+</table>
+
+## `~/` contribution calendar
+
+<img src="assets/isocal.svg" alt="3D contribution calendar" />
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake.svg" alt="contribution snake" />
+
+## `~/` the numbers
+
+<img src="assets/stats.svg" alt="GitHub stats" />
+
+<p align="center"><sub>everything above regenerates itself on a schedule — nothing here is hand-updated</sub></p>

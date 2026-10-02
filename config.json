@@ -1,0 +1,11 @@
+{
+  "name": "Your Name",
+  "tagline": "student · open-source contributor",
+  "languages_top": 6,
+  "skills": {
+    "Python": 6,
+    "C++": 5,
+    "DSA": 4,
+    "Git": 5
+  }
+}
