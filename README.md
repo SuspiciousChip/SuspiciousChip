@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/sus-aryan/"><img src="https://img.shields.io/badge/LINKEDIN-722f37?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://codeforces.com/profile/sus_aryan"><img src="https://img.shields.io/badge/CODEFORCES-722f37?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
   <br />
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=profile+views&color=722f37&style=flat-square" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=SuspiciousChip&label=profile+views&color=722f37&style=flat-square" alt="profile views" />
 </p>
 
 ## `~/` whoami
