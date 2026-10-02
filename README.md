@@ -11,11 +11,11 @@
 
 ## `~/` whoami
 
-Hi, I'm **Your Name**. One or two lines about what you study / build / care about.
+Hi, I'm **Aryan Dixit(aka SUSPICIOUS)**. One or two lines about what you study / build / care about.
 
-- What you're working on right now
-- Something you're learning
-- Fun fact: ...
+- Learning OpenSource
+- Newton School Of Technology
+- “Any man who must say 'I am the King' is no true King.”
 
 ## `~/` toolbox
 
