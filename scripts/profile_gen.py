@@ -20,11 +20,64 @@ def wrap(w, h, body, title, bg=True):
 
 
 def header_svg(name, tagline):
-    body = (f'<text x="400" y="52" text-anchor="middle" font-size="40" '
-            f'font-weight="700" fill="{ACCENT}">{esc(name)}</text>'
-            f'<text x="400" y="80" text-anchor="middle" font-size="14" '
-            f'fill="{MUTED}">{esc(tagline)}</text>')
-    return wrap(800, 96, body, name, bg=False)
+    """Animated name: letters drop in one by one, then ripple forever.
+    Pure SVG + CSS (no scripts), so it animates inside a GitHub README."""
+    w, h = 800, 132
+    letters = [c for c in name]
+    n = len(letters)
+    step = min(30.0, 740.0 / max(n, 1))
+    x0 = w / 2 - n * step / 2
+    light = RAMP[4]
+    parts = []
+    for i, ch in enumerate(letters):
+        if ch == " ":
+            continue
+        x = x0 + i * step + step / 2
+        parts.append(
+            f'<g class="in" style="animation-delay:{0.25 + i * 0.09:.2f}s">'
+            f'<text class="wave" x="{x:.1f}" y="64" text-anchor="middle" '
+            f'style="animation-delay:{1.6 + i * 0.12:.2f}s">{esc(ch)}</text></g>')
+    line_len = n * step
+    cursor_x = x0 + n * step + 4
+    css = f"""
+    .in{{opacity:0;animation:drop .7s cubic-bezier(.2,.9,.3,1.25) forwards;
+        transform-box:fill-box;transform-origin:center}}
+    @keyframes drop{{from{{opacity:0;transform:translateY(-30px) scale(.5)}}
+        to{{opacity:1;transform:none}}}}
+    .wave{{font-size:46px;font-weight:700;fill:{ACCENT};
+        animation:wave 3.4s ease-in-out infinite;
+        transform-box:fill-box;transform-origin:center}}
+    @keyframes wave{{0%,55%,100%{{transform:translateY(0);fill:{ACCENT}}}
+        28%{{transform:translateY(-8px);fill:{light}}}}}
+    .rule{{stroke:{WINE};stroke-width:2;stroke-linecap:round;
+        stroke-dasharray:{line_len:.0f};stroke-dashoffset:{line_len:.0f};
+        animation:draw 1s ease-out 1s forwards}}
+    @keyframes draw{{to{{stroke-dashoffset:0}}}}
+    .glint{{opacity:0;animation:glint 2.6s linear 2.2s infinite}}
+    @keyframes glint{{0%{{opacity:1;transform:translateX(0)}}
+        100%{{opacity:1;transform:translateX({line_len - 70:.0f}px)}}}}
+    .cur{{animation:blink 1s steps(1) infinite;opacity:0}}
+    @keyframes blink{{0%,100%{{opacity:1}}50%{{opacity:0}}}}
+    .tag{{opacity:0;font-size:14px;fill:{MUTED};animation:fade .9s ease-out 1.5s forwards}}
+    @keyframes fade{{from{{opacity:0;transform:translateY(6px)}}to{{opacity:1;transform:none}}}}
+    @media (prefers-reduced-motion:reduce){{
+        .in,.tag{{animation:none;opacity:1}} .wave,.glint,.cur{{animation:none}}
+        .rule{{animation:none;stroke-dashoffset:0}} .cur{{opacity:1}}}}
+    """
+    body = (
+        f'<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="0">'
+        f'<stop offset="0" stop-color="{light}" stop-opacity="0"/>'
+        f'<stop offset=".5" stop-color="{light}"/>'
+        f'<stop offset="1" stop-color="{light}" stop-opacity="0"/></linearGradient></defs>'
+        f'<style>{css}</style>'
+        + "".join(parts)
+        + f'<line class="rule" x1="{x0:.1f}" x2="{x0 + line_len:.1f}" y1="86" y2="86"/>'
+        f'<rect class="glint" x="{x0:.1f}" y="85" width="70" height="2" rx="1" fill="url(#g)"/>'
+        f'<rect class="cur" x="{cursor_x:.1f}" y="30" width="4" height="40" rx="1" '
+        f'fill="{ACCENT}" style="animation-delay:2.2s"/>'
+        f'<text class="tag" x="{w / 2}" y="116" text-anchor="middle">{esc(tagline)}</text>'
+    )
+    return wrap(w, h, body, name, bg=False)
 
 
 def stats_svg(items):
