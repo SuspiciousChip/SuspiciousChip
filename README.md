@@ -15,7 +15,7 @@
 
 ## `~/` whoami
 
-Hi, I'm **Aryan Dixit(aka SUSPICIOUS)**. One or two lines about what you study / build / care about.
+Hi, I'm **Aryan Dixit(aka SUSPICIOUS)**.
 
 - Learning OpenSource
 - Newton School Of Technology
